@@ -28,7 +28,7 @@ jobs:
         version: 12
         
     - name: GitHub Action for Yarn Pkg
-      uses: funkyremi/yarn-github-action@1.0.0
+      uses: Borales/actions-yarn@2.1.0
       with:
         # yarm cmommand
         cmd: install     # npm install   , yarm install
