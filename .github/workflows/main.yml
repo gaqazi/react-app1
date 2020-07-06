@@ -31,7 +31,7 @@ jobs:
       uses: Borales/actions-yarn@2.1.0
       with:
         # yarm cmommand
-        cmd: install     # npm install   , yarm install
+         cmd: install     # npm install   , yarm install
     
     - name: Creating build
       run: yarn build
